@@ -1,0 +1,7 @@
+Railsの設計哲学
+
+・DRY(Don't Repeat Yourself) 同じ記述を繰り返さない
+・CoC (Convention over Configuration) 設計よりも規約
+
+※ Railsは規約が重要
+

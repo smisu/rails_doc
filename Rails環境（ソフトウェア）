@@ -1,0 +1,10 @@
+Railsに必要なソフトウェア
+
+・Ruby本体(DevKitを含む)
+・HTTPサーバ(Webサーバ) Puma
+・データベース(RDB) SQLite
+・フレームワーク Ruby on Rails (Rails本体）
+・Node.js (Railsでアプリを動作させる)
+・rbenv(Rubyのバージョン管理ソフト)
+・Web開発サーバ webpack-dev-server
+
