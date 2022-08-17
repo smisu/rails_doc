@@ -1,0 +1,4 @@
+コントローラクラスの削除
+
+rails destroy controller [コントローラ名]
+

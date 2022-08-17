@@ -1,0 +1,22 @@
+Railsのコンポーネント（基本コンポーネント）
+コンポーネントとはRubyのライブラリ
+
+モデル　	Active Record
+ビュー		Active View
+コントローラ 	Active Controller
+
+
+全コンポーネント
+
+コントローラ 			--> ActionPack 	--> ActionController
+ルーティング 			--> ActionPack 	--> Action Dispatch
+ビュー 						--> Action View
+電子メール 					--> Action Mailer
+モデル 						--> Action Model
+データベースと結びついたモデル			--> Action Record
+プログラムの非同期実行 				--> Action Job
+共有ライブラリ集 				--> Action Support
+クラウドストレージサービスへのアップロード 	--> Action Storage
+Railsコマンドなどのユーティリティ Railtries	--> Railtries
+
+

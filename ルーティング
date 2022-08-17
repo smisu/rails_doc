@@ -1,0 +1,60 @@
+ルーティング Routing
+	
+すっきりしたURLをかける
+リクエストURLに応じて処理の受け渡し先を決定する
+
+
+ルーティングファイル(ルート定義ファイル）
+/config/routes.rb
+
+
+ルート表示
+$ rails routes
+$ rails routes | grep [コントローラ名]
+
+
+コマンド実行結果
+$ rails routes | grep books
+Prefix 		Verb   	URI Pattern                 Controller#Action
+books 		GET    /books(.:format)             books#index
+ 		POST   /books(.:format)             books#create
+new_book 	GET    /books/new(.:format)         books#new
+edit_book 	GET    /books/:id/edit(.:format)    books#edit
+book 		GET    /books/:id(.:format)         books#show
+  		PATCH  /books/:id(.:format)         books#update
+     		PUT    /books/:id(.:format)         books#update
+     		DELETE /books/:id(.:format)         books#destroy
+
+
+Prefix : プレフィクス
+Verb   : HTTPリクエスト
+URI Pattern : URL Path Pattern
+Controller#Action : コントローラ名#アクション名
+
+
+      リクエスト               アクション
+[PC]------------->[routes.rb]---------------->[Controller]
+     GET /books/2              books#show
+
+
+ルーティング処理
+(1) リクエストのパスを解析する（検索に必要なリクエストパスに整える
+(2) ルート定義を検索する（リクエストのURLに対応したルートを見つける）
+(3) ルート定義に基づいて対応するアクションを呼び出す
+
+
+ルーティングファイル(config/routes.rb)
+
+Rails.application.routes.draw do
+  get '/users', to: 'users#index'
+
+end
+
+
+
+
+
+
+
+
+

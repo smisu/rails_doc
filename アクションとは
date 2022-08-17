@@ -1,0 +1,13 @@
+アクションとはコントローラが実行する具体的な仕事のこと
+(index, new, show, edit, destroy, update, create)
+
+index: 一覧表示
+new: 新規作成
+show: 詳細表示
+edit: 編集
+destroy: 削除
+update: 更新
+create: 追加
+
+createはnewで作成したものを一覧に追加するアクション
+

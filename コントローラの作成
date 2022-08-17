@@ -1,0 +1,20 @@
+コントローラを作成する
+
+rails g controller [コントローラ名] [アクション名]
+
+例：
+rals g controller users
+
+	create  app/controllers/users_controller.rb
+	invoke  erb
+      	create    app/views/users
+      	invoke  test_unit
+      	create    test/controllers/users_controller_test.rb
+      	invoke  helper
+      	create    app/helpers/users_helper.rb
+      	invoke    test_unit
+
+
+
+
+

@@ -1,0 +1,12 @@
+yarnとは
+javascriptのパッケージマネージャー
+
+npmと互換性がある
+
+npmとは
+Node Package Managerの略で、Node.jsのモジュールを管理するツール
+
+
+railsアプリの/bin/yarnに起動スクリプトがある
+
+

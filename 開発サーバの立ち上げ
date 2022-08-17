@@ -1,0 +1,26 @@
+# 開発サーバの立ち上げ手順
+
+0. 開発サーバへログイン
+ssh saigai-nuc.local
+
+tmux:
+[Ctrl]z + c
+[Ctrl]z + 1
+
+1. railsサーバ立ち上げ (puma)
+sudo su - worker
+cd public_rails/saigai_dev/
+bin/rails s
+
+2. Webサーバ立ち上げ(node)
+sudo su - worker
+cd public_rails/saigai_dev/
+bin/webpack-dev-server
+
+3. sidekiq立ち上げ
+sudo service sidekiq restart
+※ smisu ユーザで実行
+
+4. htop
+
+

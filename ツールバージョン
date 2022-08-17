@@ -1,0 +1,18 @@
+ruby 3.1.2
+$ ruby -v
+
+rails 7.0.3
+$ rails -v
+
+SQLite 3.38.3
+$ sqlite3 --version
+
+node.js v16.15.0
+$ node -v
+
+bundler 2.3.12
+$ bundler -v
+
+puma 5.6.4
+$ puma -v
+

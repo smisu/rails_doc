@@ -1,0 +1,6 @@
+
+ls log/development.log
+
+このファイルにRailsサーバのログが出力される
+
+

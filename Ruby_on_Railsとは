@@ -6,3 +6,14 @@ Webアプリケーションのフレームワーク(WAF)
 
 WAF: Web Application Frame work
 
+
+Railsは Rubyで記述され、RubyのGemパッケージとして提供される
+RailsでのWebアプリケーション開発はRubyで記述する
+
+                Action
+[Ruby on Rails] <---- [Web app]
+       |                |
+       V                V
+[----------- Ruby ------------]
+
+

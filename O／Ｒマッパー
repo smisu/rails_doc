@@ -1,0 +1,10 @@
+O/Rマッパー
+
+                                         mapping
+[app] <--------------> [O/R mapper] <-------------------> [RDB]
+           Object                       Relational
+
+O: Object
+R: Relational
+
+

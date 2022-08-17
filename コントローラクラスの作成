@@ -1,0 +1,17 @@
+コントローラクラスの作成
+
+rails generate controller [コントローラ名]
+
+（例： $ rails generate controller hello )
+
+このコマンドを実行すると以下のディレクトリ及びファイルが作成される
+
+Views: 		app/views/[コントローラ名]/   			: viewsディレクトリの作成
+
+Controller: 	app/controllers/[コントローラ名]_controller.rb 	: controllerのクラスファイル作成
+
+Controller test: test/controllers/[コントローラ名]_controller_test.rb : controller_testのクラスファイル作成
+
+Helper: 	app/helpers/[コントローラ名]_helper.rb 		: helperのクラスファイル作成
+
+

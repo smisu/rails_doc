@@ -1,0 +1,18 @@
+アセットとは
+assets
+
+/app/assets/
+
+
+Webアプリを構成するJavaScriptやCSSなどの総称。
+
+app/assets/javascripts/[コントローラ名].coffee <-- JavaScript
+
+app/assets/stylesheets/[コントローラ名].scss <-- CSS
+
+
+
+
+
+
+

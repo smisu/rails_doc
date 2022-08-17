@@ -1,0 +1,21 @@
+モデルクラスの作成
+
+$ rails generate model [モデル名] [テーブル名]:[データ型] ...
+
+例： rails generate model isbn: string title: string price: integer publish: string published: date dl: boolean
+
+
+
+自動生成されるファイル
+
+app/models/book.rb モデルクラス(booksテーブルを操作するためのモデル本体）
+
+db/migrate/YYYMMDDmiss_create_books.rb マイグレーションファイル
+
+test/fixtures/books.yml テストデータを投入するための固定値
+
+test/models/book_test.rb モデルクラスをテストするためのスクリプト
+
+
+
+

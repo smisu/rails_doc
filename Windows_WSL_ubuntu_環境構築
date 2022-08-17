@@ -1,0 +1,24 @@
+
+WSL/Ubuntu のインストール
+WindowsでLinuxを利用できるようにする
+
+
+(1) Linux用Windowsサブシステム機能の有効化
+
+コントロールパネル　->　プログラムと機能 -> Windowsの機能の有効化または無効化 ->
+[Linux用Windowsサブシステム] をチェックする -> [OK] -> Windowsの再起動
+
+※　上記オペレーションよりLinux用Windowsサブシステムが利用できる
+
+
+(2) Ubuntsのインストール
+
+Microsoft StoreからUbuntsをインストールする
+
+Windowsスタート -> (M) Microsoft Store -> "ubuntu"を検索 -> Ubuntuの最新バージョンを選択しインストール
+
+user: smisu
+pass: masaki128
+
+
+　

@@ -1,0 +1,11 @@
+サーバの起動
+
+$ rails server
+
+Windowsの場合、コマンドプロンプトからサーバを起動する。
+正常に起動されると、Use Ctrl-C to Stopと表示され、常駐で起動される
+
+$ rails s
+でもＯＫ
+
+

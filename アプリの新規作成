@@ -1,7 +1,11 @@
-Railsの新規アプリを作成する
+アプリの新規作成(rails new)
 
-$ rails new [アプリ名]
+$ cd C:\Data
 
-※　土台となるスケルトン（骨組み）を作成する
+$ rails new [アプリ名] -m template.rb
+
+※　template.rbはtzinfo-dataのエラーを回避するためのファイルである。Gemfileを書き換えている。
+※　template.rbは C:\Data に置いてある。
+※　newコマンドで土台となるスケルトン（骨組み）を作成する
 ※　カレントディレクトリにアプリ名のディレクトリを作成する。その配下にRails環境を構築する
 

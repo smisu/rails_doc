@@ -1,0 +1,23 @@
+Windowsテスト環境でのRaislサーバの起動
+
+# ターミナル(Git Bashなど)を起動する
+
+# アプリのルートディレクトリに移動する
+cd /c/Data/railbook2
+
+# railsサーバ(Puma)を起動する
+rails s
+
+=> Booting Puma
+=> Rails 7.0.3.1 application starting in development
+=> Run `bin/rails server --help` for more startup options
+:
+:
+
+# railsサーバの起動を確認する
+ブラウザーから
+http://localhost:3000/
+でアクセスする。
+Railsのサンプル画面が表示される
+
+

@@ -1,0 +1,45 @@
+コントロールクラスの基本構文
+
+class HelloController < ApplicationController <--- (1)
+
+  def index <--- (2)
+
+    render plain : 'こんにちは、世界'  <--- (3)
+
+  end
+
+end
+
+
+(1) HelloControllerクラスはApplicationControllerクラスを継承する
+　　また、ApplicationControllerはActionController::Baseを継承している
+
+    HelloController < ApplicationController < ActionController::Base
+
+    	※ ActionController::Baseはリクエスト/レスポンス処理
+
+(2) アクションメソッド定義
+
+アクションメソッドを定義する
+アクションメソッドは index, show, edit など
+デフォルトでpublicなメソッドとして定義されるが
+公開したくない場合はprivate以下に記述する
+
+(3) アクションメソッドの処理
+
+ここにアクションメソッドの処理コードを記述する
+
+一般敵なアクションメソッドの役割は
+	・リクエスト情報の処理
+	・モデルの呼び出し
+	・ビューに埋め込むテンプレート変数の設定
+など
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+モデルクラス構文構成
+
+class Xxx < ApplicationRecord < ActiveRecord::Base
+
+
+Xxx: モデルクラス名 (app/models/xxx.rb)
+ApplicationRecord: app/models/applicationRecord.rb
+ActiveRecord::Base: O/Rマッパー
+
+
+モデルクラスを作成する
+$ rails generate model [モデル名] [テーブルフィールドレイアウト]
+
+[テーブルフィールドレイアウト]
+列名　データ型　概要
+isbn	string	ISBNコード
+title	string	書籍名
+price	integer 価格
+publish	string	出版社
+published	date	刊行日
+dl	boolean	ダウンロードの有無
+
+
+
+
+
+

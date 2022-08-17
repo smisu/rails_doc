@@ -1,0 +1,20 @@
+メソッドの分類
+
+(1) Ruby メソッド
+Rubyが提供するメソッド
+.new や .eachなど
+
+
+(2) Rails　メソッド
+Railsが提供するメソッド
+.present?
+.try 	メソッドを実行する。ただし、オブジェクトの中身が空(nil)の場合はnilを返す
+    	たとえば、@blog.try(:user)の場合、userが存在したらblog.userを実行する
+
+
+(3) ActiveRecord メソッド
+.all  	モデル（テーブル）から全てのデータを取得する
+.save	モデル（テーブル）にデータを保存する
+.order	カラムのソート
+
+

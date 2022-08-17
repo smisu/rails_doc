@@ -1,0 +1,31 @@
+ＤＢに接続するために接続設定を定義する
+
+接続設定定義ファイル
+config/database.yml <-- デフォルトで用意されている
+
+
+ヤムル形式で記述されている
+
+default:&default デフォルト
+
+development:	開発用
+  << *default
+
+test:		テスト用
+
+production:	本番用
+
+
+&はエイリアス（別名）を表す
+*は参照を表す
+
+Railsは目的に応じて環境を使い分ける
+development 開発
+test テスト
+production 本番
+
+config/database.ymlにデータベースの保管場所（パス）が設定されている
+
+
+
+

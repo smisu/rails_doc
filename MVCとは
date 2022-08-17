@@ -4,3 +4,9 @@ Railsの特徴としてMVCパターンを採用している
 ・View
 ・Controller
 
+
+User  <-->  Controller  <-->  View
+                ^ 
+		|
+		v
+              Model

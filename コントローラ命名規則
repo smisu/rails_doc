@@ -1,0 +1,12 @@
+コントローラ命名規則
+
+コントローラ名: xxx
+
+クラス名: XxxController
+
+クラスファイル名: xxxs_controller.rb
+
+ヘルパーファイル名: xxxs_helper.rb
+
+テストファイル名: xxx_controller_test.rb
+
